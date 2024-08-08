@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#home{
+    height: 700px;
+    width: 1300px;
+    background-image: url("icon_files/home.jpg");
+    background-size: cover;
+    position: relative;
+    bottom: 18px;
+    border-bottom: 20px solid rgb(39, 37, 37);
+}
+/*home navbar*/
+#logo{
+    height: 80px;
+    width: 260px;
+    background-image: url("icon_files/Netflix_Logo_PMS.png");
+    background-size: cover;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+#laugsec{
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    width: 85px;
+    display: flex;
+    background-color:rgb(54, 50, 50); 
+    position: relative;
+    left: 1000px;
+    top: 20px;
+
+}
+i{
+    color: white;
+    height: 30px;
+    width: 20px;
+    position: absolute;
+    left: 68px;
+    top: 5px;
+ }
+#langu{
+    height:30px ;
+    background-color:rgb(54, 50, 50); 
+    color: white;   
+}
+.button1{
+    margin-left: 50px;
+    height: 32px;
+    width: 100px;
+    position: absolute;
+    left: 1050px;
+    top: 20px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*home concent*/
+
+#home-content{
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    
+}
+#home-content h2{
+    color: white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p1{
+    color:rgba(255, 255,255, 0.8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-left: 250px;
+    font-size:25px ;
+}
+.p2{
+    color: white;
+    font-weight: light;
+    padding-left: 50px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    height: 60px;
+    width: 400px;
+    padding-left: 30px;
+    margin-left: 150px;
+    background-color:rgba(0, 0, 0,0.9); 
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 20px;
+    color: white;
+}
+#button2{
+    color: white;
+    background-color: red;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    margin-left: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*addverticement*/
+.add{
+    height: 500px;
+    background-color: black;
+    position: relative;
+    bottom: 18px;
+    border-bottom: 10px solid rgb(39, 37, 37);
+    display: flex;
+}
+.txt{
+    width: 50%;
+    color: white;
+}
+.txt h2{
+    position: relative;
+    top: 30%;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 60px;
+}
+.txt p{
+    position: relative;
+    top: 35%;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 60px;
+}
+/*asked questions*/
+#query{
+    height: 1000px;
+    background-color: black;
+    position: relative;
+    bottom: 18px;
+    border-bottom: 10px solid rgb(39, 37, 37);
+}
+#query h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    position: relative;
+    top: 10%;
+    left: 20%;
+}
+.que{
+    height: 80px;
+    width: 1100px;
+    background-color: rgb(51, 49, 49);
+    margin: 10px;
+    position: relative;
+    top: 15%;
+    left: 8%;
+    cursor: pointer;
+}
+.que p{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding: 30px;
+    font-weight: lighter;
+}
+.que i{
+    font-size: 60px;
+    padding-left: 85%;
+}
+#info{
+    position: relative;
+    top: 20%;
+}
+#info p{
+    color: white;
+    font-weight: light;
+    padding-left: 200px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#info input{
+    height: 60px;
+    width: 350px;
+    padding-left: 20px;
+    margin-left: 280px;
+    background-color:rgb(37, 36, 36);; 
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 15px;
+    color: white;
+}
+#info button{
+    color: white;
+    background-color: red;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    margin-left: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/*footer*/
+#footer{
+    height: 400px;
+    background-color: black;
+    position: relative;
+    bottom: 18px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+#footer p{
+    padding-left: 10%;
+    padding-top: 5%;
+    color: rgb(114, 110, 110);
+    font-size: 15px;
+}
+.netlinks{
+    margin: 3%;
+    display: flex;
+    padding-left :6%;
+}
+.link{
+    height: 250px;
+    width: 200px;
+    margin-left: 20px;
+    
+}
+.link li{
+    font-size: 14px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#selector{
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    width: 90px;
+    display: flex;
+    background-color:rgb(54, 50, 50); 
+}
+#selector i{
+    position: relative;
+    top: 36%;
+    left: 7%;
+}
