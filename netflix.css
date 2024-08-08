@@ -6,7 +6,7 @@
 #home{
     height: 700px;
     width: 1300px;
-    background-image: url("icon_files/home.jpg");
+    background-image: url("home.jpg");
     background-size: cover;
     position: relative;
     bottom: 18px;
@@ -16,7 +16,7 @@
 #logo{
     height: 80px;
     width: 260px;
-    background-image: url("icon_files/Netflix_Logo_PMS.png");
+    background-image: url("Netflix_Logo_PMS.png");
     background-size: cover;
     position: absolute;
     top: 30px;
